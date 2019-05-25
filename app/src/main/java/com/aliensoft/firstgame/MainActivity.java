@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import java.util.Random;
 
-// Classe principla
+// Essa é a classe principal do APP.
 public class MainActivity extends AppCompatActivity {
 
     @Override
