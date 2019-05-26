@@ -16,8 +16,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    // Alteração para 100 números. Ver no GitHub.
     public void sortearNum(View view){
-        int num = new Random().nextInt(11);
+        int num = new Random().nextInt(101);
         TextView mostraNum = findViewById(R.id.mostraNum);
 
         mostraNum.setText("O número sorteado é: " + num);
